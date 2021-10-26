@@ -58,41 +58,19 @@ button:hover{
     left: 5%;
 }
 
-@media(max-width: 1000px){
-    .cont{
-    position: absolute;
-    top:20%;
-    left: 10%;
-    padding:20px;
-    width:90%;
-    height:auto;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius:20px;
-    }
+@media(max-width: 720px){
 
-    .but{
-        padding-top: 50px;
-        position:absolute;
-        left: 5%;
-    }
+button{
+    scale: 1;
+}
 
-    #qote{
-        font-size: 20px;
-    }
-    
-    #author{
-        font-size: 16px;
-        text-align: right;
-        padding: 20px;
-    }
+#qote{
+    font-size: 20px;
+}
 
-    button{
-        padding: 10px;
-        color:white;
-        border: none;
-        border-radius: 25px;
-        background-color: rgb(0, 0, 0);
-        scale: 0.75;
-    
-    }
+#author{
+    font-size: 16px;
+}
+
+
 }
